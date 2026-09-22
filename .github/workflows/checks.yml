@@ -83,8 +83,9 @@ jobs:
           conda install --quiet --yes pip setuptools wheel pandoc
           echo '::endgroup::'
 
-          echo '::group::Installing WaterTAP'
-          pip install ipykernel jupyter reaktoro-pse pytest black watertap==1.7
+          echo '::group::Installing WaterTAP & Reaktoro-PSE'
+          pip install "watertap[testing,notebooks]==1.7"
+          pip install reaktoro-pse
           echo '::endgroup::'
 
           echo '::group::Output of "idaes get-extensions" command'
