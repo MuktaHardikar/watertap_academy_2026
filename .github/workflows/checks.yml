@@ -85,11 +85,20 @@ jobs:
 
           echo '::group::Installing WaterTAP & Reaktoro-PSE'
           pip install "watertap[testing,notebooks]==1.7"
-          pip install reaktoro-pse
+          echo '::endgroup::'
+          
+          echo '::group:: set numpy version to 1.26.4'
+          pip uninstall -y numpy
+          pip install numpy==1.26.4
           echo '::endgroup::'
 
           echo '::group::Output of "idaes get-extensions" command'
           idaes get-extensions --extra petsc --verbose
+          echo '::endgroup::'
+
+          echo '::group:: installing reaktoro dependencies'
+          conda install -c conda-forge reaktoro=2.12.3 cyipopt=1.4.1
+          pip install git+https://github.com/watertap-org/reaktoro-pse.git
           echo '::endgroup::'
 
           echo '::group::Display installed packages'
