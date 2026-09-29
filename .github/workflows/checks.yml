@@ -92,7 +92,7 @@ jobs:
           echo '::endgroup::'
 
           echo '::group:: installing reaktoro dependencies'
-          conda install -c conda-forge reaktoro cyipopt
+          conda install -c conda-forge reaktoro=2.13.0 cyipopt=1.7.0
           pip install git+https://github.com/watertap-org/reaktoro-pse.git
           echo '::endgroup::'
 
