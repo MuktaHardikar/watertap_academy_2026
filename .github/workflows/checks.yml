@@ -84,7 +84,7 @@ jobs:
           echo '::endgroup::'
 
           echo '::group::Installing WaterTAP & Reaktoro-PSE'
-          pip install "watertap[testing,notebooks]==1.7"
+          pip install "watertap[testing,notebooks]==1.8.0"
           echo '::endgroup::'
 
           echo '::group::Output of "idaes get-extensions" command'
