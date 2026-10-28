@@ -85,6 +85,7 @@ jobs:
 
           echo '::group::Installing WaterTAP & Reaktoro-PSE'
           pip install git+https://github.com/watertap-org/watertap.git@main
+          pip install pytest
           echo '::endgroup::'
 
           echo '::group::Output of "idaes get-extensions" command'
