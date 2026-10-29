@@ -1,4 +1,4 @@
-# WaterTAP Academy <date>
+# WaterTAP Academy 2026
 
 Materials for each week are under `week<N>` directories.
 
@@ -13,4 +13,4 @@ Binder is an online service providing a short-lived temporary sandbox environmen
 
 Click on this button to launch an environment pointing to the current main branch of this WaterTAP Academy repository:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_template/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main)
