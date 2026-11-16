@@ -32,7 +32,7 @@ For more information on WaterTAP, visit the [WaterTAP repository](https://github
 This repository has the following directories:
 
 * **session 0–8:** Contains the lecture materials, hands-on tutorials, and supporting files used during the corresponding lecture.
-* **post-Session:** Contains additional material and/or practice material shared after each session
+* **post-session:** Contains additional material and/or practice material shared after each session
 * **`src/`:** The source directory can be used to store any source code you may have.
 * **`data/`:** The data directory can be used to store any data you may have.
 
