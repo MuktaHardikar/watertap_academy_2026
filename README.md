@@ -10,7 +10,7 @@ experience in process modeling, simulation, or Python programming will be best p
 to get the most out of the course.
 
 This repository contains the course materials for the **Fall 2026 WaterTAP Academy**,
-including lecture materials, coding tutorials, and other
+including coding tutorials and other
 resources used throughout the course. For more information about downloading these materials locally, see the
 [WaterTAP Academy Home Page](https://github.com/watertap-org/watertap_academy_2026/wiki)
 
